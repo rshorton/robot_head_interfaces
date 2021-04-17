@@ -1,0 +1,3 @@
+int32 angle
+int32 transition_duration
+int32 dwell_duration
