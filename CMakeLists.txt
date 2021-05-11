@@ -26,6 +26,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Smile.msg"
   "msg/HeadTilt.msg"
+  "msg/Track.msg"
 )
 
 if(BUILD_TESTING)
