@@ -27,6 +27,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Smile.msg"
   "msg/HeadTilt.msg"
   "msg/Track.msg"
+  "msg/ScanStatus.msg"
 )
 
 if(BUILD_TESTING)
