@@ -1,0 +1,4 @@
+string left_blink_pattern
+string right_blink_pattern
+uint32 rate
+uint32 intensity

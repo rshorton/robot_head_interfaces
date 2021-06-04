@@ -24,10 +24,11 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Smile.msg"
-  "msg/HeadTilt.msg"
-  "msg/Track.msg"
-  "msg/ScanStatus.msg"
+  msg/Smile.msg
+  msg/HeadTilt.msg
+  msg/Track.msg
+  msg/ScanStatus.msg
+  msg/Antenna.msg
 )
 
 if(BUILD_TESTING)
