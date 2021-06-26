@@ -1,0 +1,3 @@
+bool tracking
+object_detection_msgs/ObjectDesc object
+float32 duration
