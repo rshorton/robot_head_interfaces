@@ -28,6 +28,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ScanStatus.msg"
   "msg/Antenna.msg"
   "msg/TrackStatus.msg"
+  "msg/SaveImage.msg"
   DEPENDENCIES std_msgs object_detection_msgs
 )
 
