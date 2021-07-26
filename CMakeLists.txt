@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(face_control_interfaces)
+project(robot_head_interfaces)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -29,6 +29,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Antenna.msg"
   "msg/TrackStatus.msg"
   "msg/SaveImage.msg"
+  "msg/DetectedPose.msg"
+  "msg/EnablePoseDetection.msg"
   DEPENDENCIES std_msgs object_detection_msgs
 )
 
