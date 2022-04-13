@@ -1,5 +1,5 @@
 string mode
 string rate
-bool voice_detect
+string sound_track_mode
 bool turn_base
 string object_type
