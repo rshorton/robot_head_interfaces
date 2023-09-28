@@ -20,12 +20,12 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(object_detection_msgs REQUIRED)
-find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Smile.msg"
+  "msg/PointerLight.msg"
   "msg/HeadTilt.msg"
-  "msg/Track.msg"
+  "msg/TrackCmd.msg"
   "msg/ScanStatus.msg"
   "msg/Antenna.msg"
   "msg/TrackStatus.msg"
