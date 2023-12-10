@@ -5,3 +5,4 @@ string sound_mode           # Turn to sound mode: None, Any, Wakeword
 bool turn_base              # If True, then turn base to keep tracked object in view
 string object_type          # Object type to track
 float32 min_confidence      # Minimum detection confidence for tracking
+string object_unique_id     # Unique ID of object to track
